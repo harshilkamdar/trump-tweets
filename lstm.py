@@ -12,7 +12,7 @@ from keras.layers.recurrent import LSTM
 parser = argparse.ArgumentParser(description='Trump the tweets.')
 parser.add_argument('file', help='filename', type=str)
 parser.add_argument('--train', help='trainnnnn', action="store_true")
-parser.add_argument('--epochs', help='epoch? epoch.', type=int, action="store_true")
+parser.add_argument('--epochs', help='epoch? epoch.', type=int)
 
 args = parser.parse_args()
 
